@@ -1,0 +1,552 @@
+@charset "utf-8";
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	font-style: normal;
+    font-weight: lighter;
+    font-family: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(DalekPinpointBold.ttf);
+}
+
+img, iframe{
+	display: block;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+button{
+	height: 60px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 82%;
+	outline: none;
+	transition-duration: 0.4s;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+hr{
+	width: 74%;
+	background-color: white;
+	border-width: 0;
+	margin-bottom: 35px auto; 
+	margin-top: 35px auto; 
+	height: 2px;
+}
+
+#MainContainer {
+    height: 100%;
+    width: 90%;
+    background-color: #f2f2f2;
+}
+
+.breakBar{
+    height: 59px;
+    background-color: #f2f2f2;
+}
+
+.titluCapitol{
+    background-color: rgba(0,0,0,0.70);
+	padding-top: 90px; 
+	padding-bottom: 90px; 
+	color: white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.titluCap{
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding-top: 5%;
+}
+
+.textInd{
+	color: white;
+	padding: 5%;
+	text-align: justify;
+	text-indent: 2cm;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.textInd2{
+	color: white;
+	padding: 5%;
+	text-align: justify;
+	text-indent: 2cm;
+	font-weight: lighter;
+	font-size: 17px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.text{
+	color: white;
+	padding: 5%;
+	text-align: justify;
+	font-weight: lighter;
+	font-size: 16px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.divInd{
+	background-color: #e0e0e0; 
+	padding-left: 5%; 
+	padding-right: 5%;
+}
+
+.divIns{
+	background-color: rgba(0,0,0,0.70);
+}
+
+.breakBarInd{
+	height: 59px;
+	background-color: #e0e0e0; 
+}
+
+.link{
+	color: #2B2B2B;
+}
+
+.link:hover{
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+html, body, iframe { height: 100%; }
+#iframe1{
+	width: 100%;
+	height: 100%;
+}
+
+/* --------------------Video-------------------- */
+	
+.videoDiv{
+	background-color: rgba(0,0,0,0.70);
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.video{
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/* --------------------/Video-------------------- */
+/* --------------------Subsol-------------------- */
+
+#subsol {
+    background-color: rgba(0,0,0,0.70);
+	padding-top: 30px; 
+	padding-bottom: 45px; 
+	padding-right: 5%; 
+	padding-left: 10%; 
+	color: #2B2B2B;
+	font-size: 17px;
+	letter-spacing: 3px;
+	text-align: left;
+	
+	margin-left: -10%;
+	margin-right: -5%;
+}
+
+#print:hover{
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+/* --------------------/Subsol-------------------- */
+/* --------------------Navbar-------------------- */
+
+#Navbar table{
+	z-index: 9;
+	position: fixed;
+    width: 100%;
+	height: 60px;
+	transition-duration: 0.3s;
+	text-align: center;
+}
+
+#Navbar td{
+	padding: 0px;
+	background: white;
+}
+
+#Navbar .Btn1{
+	transition-duration: 0.1s;
+	background: #5c5c5c;
+}
+
+#Navbar .Btn2{
+	transition-duration: 0.1s;
+	background: #6b6b6b;
+}
+
+#Navbar .Btn2:hover, #Navbar .Btn1:hover{
+	background: #454545;
+}
+
+/* --------------------/Navbar-------------------- */
+/* --------------------Gallery-------------------- */
+
+#Gallery .divInd{
+	background: rgba(0,0,0,0.70);;
+	overflow: hidden;
+	height: 600px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#Gallery2 .divInd{
+	background: rgba(0,0,0,0.70);;
+	overflow: hidden;
+	height: 800px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#Gallery #slideDiv, #Gallery2 #slideDiv{
+	width: 600%;
+	position: relative;
+	transition: left 1s;
+}
+
+#Gallery #btnDiv, #Gallery2 #btnDiv{
+	position: relative;
+	top: -25px;
+}
+
+#Gallery .btn, #Gallery2 .btn{
+	width: 13px;
+	height: 13px;
+	border-radius: 8px;
+	background: rgba(208,208,208,0.8);
+	transition-duration: 0.3s;
+	display: inline-block;
+}
+
+#Gallery .btn:hover, #Gallery2 .btn:hover{
+	background-color: white;
+}
+
+#Gallery .slide, #Gallery2 .slide{
+	height: 600px;
+	width: calc(100%/6);
+	float: left;
+	overflow: hidden;
+	background-size: 62% 100%;
+	background-repeat: no-repeat;
+}
+
+#Gallery2 .slide2{
+	height: 800px;
+	width: calc(100%/6);
+	float: left;
+	overflow: hidden;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+#Gallery .slide2{
+	height: 600px;
+	width: calc(100%/6);
+	float: left;
+	overflow: hidden;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#Gallery .oblique, #Gallery2 .oblique{
+	width: 43%;
+	height: 120%;
+	background-image: url("Gallery/Background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	transform-origin: right bottom;
+	-webkit-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+	padding-right: 2%;
+}
+
+#Gallery p, #Gallery2 p{
+	color: black;
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(-5deg);
+	text-align: center;
+	padding: 16%;
+}
+
+#Gallery .site, #Gallery2 .site{
+	margin-right: -5%;
+	color: black;
+	font-size: 16px;
+	transition: 0.5s;
+}
+
+#Gallery a:hover{
+	color: #515151;
+}
+
+#Gallery .titluCap, #Gallery2 .titluCap{
+	margin-bottom: -25%;
+	margin-right: 3%;
+}
+
+/* --------------------/Gallery-------------------- */
+/* --------------------Introducere-------------------- */
+
+#Introducere table{
+	width: 100%;
+	border: 1px solid white;
+	border-collapse: separate;
+}
+
+#Introducere td{
+	width: 25%;
+	padding: 1%;
+}
+
+#Introducere .text{
+	text-align: center; 
+	line-height: 1.2;
+	color: white;
+}
+
+#Introducere .td1{	
+	background: #52BAD5; 
+}
+
+#Introducere .td2{
+	background: #5dd2f0; 
+}
+
+/* --------------------/Introducere-------------------- */
+/* --------------------Personalitati-------------------- */
+
+#Personalitati td{
+	border: 1px solid white;
+}
+
+#Personalitati .td1{
+	width: 20%;
+	display: contents;
+}
+
+#Personalitati .td2{
+	width: 80%;
+}
+
+#Personalitati .tr1{	
+	background: #52BAD5; 
+}
+
+#Personalitati .tr2{
+	background: #5dd2f0; 
+}
+
+#Personalitati img{
+	width: 100%;
+}
+
+/* --------------------/Personalitati-------------------- */
+/* --------------------Inventii-------------------- */
+
+#Inventii{
+	color: white;
+}
+
+#Inventii img, #Inventii iframe{
+	padding-top: 35px;
+	margin-bottom: -30px;
+}
+
+#Inventii .td1{
+	background: #004182;
+}
+
+#Inventii .td2{
+	background: #ffcc00;
+}
+
+
+
+/* --------------------/Inventii-------------------- */
+/* --------------------Vs-------------------- */
+
+#Vs td{
+	width: 50%;
+	vertical-align: top;
+	padding-top: 33px;
+}
+
+#Vs .td1{
+	background: #8a0707;
+}
+
+#Vs .td2{
+	background: #00A7E0;
+}
+
+#vs td{
+	vertical-align: top;
+	border-collapse: collapse;
+	padding-top: 33px;
+}
+
+#Vs .text, #Vs .textInd{
+	padding-bottom: 0;
+	color: white;
+	font-size: 16px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+/* --------------------/Vs-------------------- */
+/* --------------------Raz_Termopile-------------------- */
+
+#Raz_Termopile .div1{
+	background: #00A7E0;
+}
+
+#Raz_Termopile .div2, #Raz_Termopile .divIns{
+	background: #8a0707;
+}
+
+/* --------------------/Raz_Termopile-------------------- */
+/* --------------------Arta_si_Cultura-------------------- */
+
+#Arta_si_Cultura table img{
+	width: 65%;
+	padding: 5%;
+	margin-bottom: -5%;
+}
+
+#Arta_si_Cultura td{
+	height: 508px;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+#Arta_si_Cultura .td1{
+	background: #ff7f50;
+}
+
+#Arta_si_Cultura .td2{
+	background: #ff9c50;
+}
+
+/* --------------------/Arta_si_Cultura-------------------- */
+/* --------------------Mitologie-------------------- */
+
+#Mitologie .titluCap{
+	font-size: 18px;
+	margin-bottom: -3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#Mitologie .td1{
+	background: #5c5c5c;
+}
+
+#Mitologie .td2{
+	background: #6b6b6b;
+}
+
+#m1 p, #m1 img{
+	box-sizing: border-box;
+	color: #5bd61a;
+	width: 50%;
+}
+
+#m1{
+	vertical-align: middle;
+	width: 100%;
+}
+
+#m1 td{
+	width: 50%;
+	padding: 2%;
+}
+
+#m1 .right{
+	float: right;
+}
+
+#m1 .left{
+	float: left;
+}
+
+#m1 .right{
+	padding-right: 0;
+}
+
+#m1 .left{
+	padding-left: 0;
+}
+
+#m2 p{
+	color: #5bd61a;
+}
+
+#m2 td{
+	width: 33%;
+	vertical-align: top;
+}
+
+#m2 img{
+	width: 65%;
+	padding-top: 35px;
+}
+
+/* --------------------/Mitologie-------------------- */
+/* --------------------Materiale_extra-------------------- */
+
+#Materiale_extra p, a, .link{
+	color: white;
+	font-size: 18px;
+}
+
+#Materiale_extra ul, li{
+	align-self: baseline;
+	list-style-type: none;
+	display: inline;
+}
+
+#Materiale_extra .link:hover{
+	transition-duration: 0.3s;
+	color: black;
+}
+
+#Materiale_extra .link{
+	line-height: 5px;
+}
+
+/* --------------------/Materiale_extra-------------------- */

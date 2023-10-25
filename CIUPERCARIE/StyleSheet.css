@@ -1,0 +1,213 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  border: none;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("CAVOLINI.TTF");
+}
+@font-face {
+  font-family: myFirstFont2;
+  src: url("CAVOLINIBOLD.TTF");
+}
+body {
+  background: #fab77f;
+}
+img {
+  display: block;
+}
+#iframe1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#iframe2 {
+  width: 100%;
+  height: 1500px;
+}
+#iframe3 {
+  width: 100%;
+  height: 1400px;
+}
+#MainContainer {
+  background: white;
+  color: black;
+  width: 70%;
+  min-height: 99vh;
+  align: center;
+  outline: 2px solid white;
+  outline-offset: -1px;
+}
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 0 5% 0 5%;
+}
+.breakBar {
+  height: 50px;
+}
+.titluCap {
+  color: rgb(227, 108, 10);
+  text-indent: 2cm;
+  font-weight: bold;
+  font-size: 38px;
+  padding: 50px;
+  text-transform: uppercase;
+	font-family: myFirstFont;
+}
+.titluPar {
+  color: rgb(227, 108, 10);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-bottom: 7px;
+}
+.paragraf {
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  width: 90%;
+}
+.div {
+  text-indent: 2cm;
+  padding: 4% 3% 4% 3%;
+  text-align: justify;
+}
+.noDiv {
+  padding: 4% 0 0 0;
+  text-align: justify;
+}
+.invDiv {
+  text-indent: 2cm;
+  background: rgb(227, 108, 10);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
+  padding: 3%;
+  color: white;
+  text-align: justify;
+}
+.invDiv .titluPar {
+  color: white;
+}
+.invDiv a {
+  color: black;
+}
+.imgDiv {
+  padding: 0;
+  text-indent: 2cm;
+  text-align: justify;
+}
+.textColoaneInv {
+  width: 50%;
+  padding: 25px;
+  background: rgb(227, 108, 10);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: justify;
+}
+.textColoane {
+  width: 50%;
+  padding: 25px;
+  text-align: justify;
+}
+/* --------------------Navbar-------------------- */
+#Navbar {
+  z-index: 9;
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  text-align: center;
+  background: white;
+}
+#Navbar a {
+  font-family: myFirstFont2;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  color: rgb(227, 108, 10);
+  border-top: 2px solid rgb(227, 108, 10);
+  text-decoration: none;
+  transition-duration: 0.4s;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition-duration: 0.3s;
+}
+#Navbar a:hover {
+  color: #ff790a;
+}
+/* --------------------Navbar-------------------- */
+/* --------------------Subsol-------------------- */
+#subsol {
+  background-color: black;
+  padding: 30px 5% 25px 5%;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+}
+#subsol img {
+  display: inline;
+  height: 25px;
+}
+.printf {
+  text-decoration: none;
+  transition-duration: 0.2s;
+  color: white;
+}
+.printf:hover {
+  color: #DFDFDF;
+  cursor: pointer;
+}
+/* --------------------/Subsol-------------------- */
+/* --------------------Gallery-------------------- */
+#Gallery {
+  z-index: -1;
+  margin-bottom: -17px;
+}
+#Gallery .div {
+  background: #F0F0F0;
+  overflow: hidden;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+#Gallery #slideDiv {
+  width: 600%;
+  position: relative;
+  transition: left 1s;
+}
+#Gallery #btnDiv {
+  position: relative;
+  padding-left: 45%;
+  top: -25px;
+}
+#Gallery .btn {
+  width: 13px;
+  height: 13px;
+  border-radius: 8px;
+  background: rgba(208, 208, 208, 0.8);
+  transition-duration: 0.3s;
+  display: inline-block;
+}
+#Gallery .btn:hover {
+  background-color: white;
+}
+#Gallery .slide {
+  height: 500px;
+  width: calc(100%/6);
+  float: left;
+  overflow: hidden;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Gallery .site {
+  margin-right: -5%;
+  color: black;
+  font-size: 16px;
+  transition: 0.5s;
+}
+/* --------------------/Gallery-------------------- */

@@ -1,0 +1,319 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Arial, sans-serif;
+}
+img{
+	display: block;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  min-height: 1000px;
+}
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  width: 100%;
+  margin-left: 0;
+}
+ul {
+  padding: 0;
+  margin-left: 14px;
+  padding-left: 14px;
+  padding-right: 50px;
+  font-family: Arial, sans-serif;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  text-align: justify;
+  color: #444444;
+}
+li {
+  padding-bottom: 14px;
+}
+#iframe1 {
+  padding-top: 95px;
+  margin-left: 115px;
+  border-left: 3px #EFEFEF dashed;
+  min-width: 500px;
+}
+.titluCap {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 7px;
+  display: inline;
+}
+.titluPar {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  color: #414141;
+}
+.paragraf {
+  font-family: Arial, sans-serif;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  padding-bottom: 35px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 50px;
+  text-align: justify;
+  color: #444444;
+}
+.blackBk {
+  background: black;
+  padding: 5%;
+  margin-right: 25px;
+}
+.blackBk .paragraf, .blackBk .titluPar {
+  color: white;
+}
+.imgPar, .imgParBl {
+  width: 95vw;
+}
+.imgPar img {
+  width: 100%;
+  padding-right: 25px;
+}
+.imgParBl img {
+  width: 100%;
+  padding-left: 25px;
+}
+.imgParBl {
+  background: black;
+}
+.imgPar .paragraf {
+  color: black;
+  padding: 0 5% 5% 5%;
+  font-family: Arial, sans-serif;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.imgParBl .paragraf {
+  color: white;
+  padding: 0 5% 5% 5%;
+  font-family: Arial, sans-serif;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.imgPar .titluPar {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding: 5% 5% 0 5%;
+  padding-bottom: 7px;
+  color: #414141;
+}
+.imgParBl .titluPar {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding: 5% 5% 0 5%;
+  padding-bottom: 7px;
+  color: white;
+}
+.breakBar {
+  height: 50px;
+  background-color: white;
+}
+.link {
+  font-family: Tahoma, sans-serif;
+  font-size: 17px;
+  letter-spacing: -0.3px;
+  padding-left: 14px;
+  color: #414141;
+  text-decoration-color: black;
+}
+.link:hover {
+  color: #2E2E2E;
+  cursor: pointer;
+}
+.link:visited {
+  text-decoration-color: black;
+}
+.td1 {
+  width: 25%;
+  height: 500px;
+  text-align: center;
+  padding: 2%;
+  border: 2px white solid;
+  background: #2C2C2C;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.td2 {
+  width: 50%;
+  height: 150px;
+  text-align: center;
+  padding: 0;
+  border: 2px black solid;
+  border-radius: 40px;
+}
+.td2 div {
+  border-radius: 25px;
+  background: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-duration: 0.2s;
+}
+.td1:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+}
+.td1:active {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+}
+.td2 div:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+}
+.td2 div:active {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
+}
+.td1 p {
+  color: white;
+  padding-top: 75%;
+}
+.td1 a {
+  text-decoration: none;
+}
+/* --------------------Video-------------------- */
+.videoDiv {
+  width: 50%;
+  height: 400px;
+  position: relative;
+  padding-right: 15px;
+}
+.video {
+  top: 0;
+  align: center;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.videoTd {
+  width: 50%;
+  height: 100%;
+}
+/* --------------------/Video-------------------- */
+/* --------------------Navbar-------------------- */
+button {
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding-left: 0;
+}
+#logo {
+  background-image: url("img/logo.png");
+  background-size: 100% 100%;
+  width: 30px;
+}
+#navbarTop {
+  position: fixed;
+  background: black;
+  color: white;
+  height: 80px;
+  text-align: center;
+  z-index: 9;
+  transition-duration: 0.3s;
+  padding-left: 7vw;
+  padding-right: 10vw;
+}
+#navbarTop a {
+  color: white;
+  font-size: 85%;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+#navbarTop a:hover {
+  color: #A2A2A2;
+}
+#navbarTop td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#navbarSide {
+  position: fixed;
+  margin-top: 80px;
+  background: black;
+  color: white;
+  width: 80px;
+  height: 100%;
+  text-align: center;
+}
+#navbarSide p {
+  padding-top: 20vh;
+  writing-mode: tb-rl;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#navbarSide img {
+  width: 35px;
+  height: 35px;
+  padding-bottom: 5px;
+}
+/* --------------------Navbar-------------------- */
+/* --------------------Gallery-------------------- */
+#Gallery .divInd {
+  background: #F0F0F0;
+  overflow: hidden;
+  height: 600px;
+  padding: 0px;
+  margin: 0px;
+}
+#Gallery #slideDiv {
+  width: 600%;
+  position: relative;
+  transition: left 1s;
+}
+#Gallery #btnDiv {
+  position: relative;
+  padding-left: 45%;
+  top: -25px;
+}
+#Gallery .btn {
+  width: 13px;
+  height: 13px;
+  border-radius: 8px;
+  background: rgba(208, 208, 208, 0.8);
+  transition-duration: 0.3s;
+  display: inline-block;
+}
+#Gallery .btn:hover {
+  background-color: white;
+}
+#Gallery .slide {
+  height: 600px;
+  width: calc(100%/6);
+  float: left;
+  overflow: hidden;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Gallery .site {
+  margin-right: -5%;
+  color: black;
+  font-size: 16px;
+  transition: 0.5s;
+}
+/* --------------------/Gallery-------------------- */

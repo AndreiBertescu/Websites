@@ -1,0 +1,224 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  border: none;
+}
+body {
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+}
+img {
+  display: block;
+}
+a:visited {
+  color: #323232;
+}
+#iframe1 {
+  width: 100.6%;
+  margin-left: -4px;
+  margin-top: -10px;
+  height: 102%;
+  min-width: 1001px;
+}
+#MainContainer {
+  background: white;
+  width: 90%;
+  min-height: 100vh;
+  padding-top: 4%;
+  align: center;
+  color: #414141;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  margin: 0 5% 0 5%;
+}
+ul {
+  padding: 0;
+  margin-left: 14px;
+  padding-left: 14px;
+  padding-right: 50px;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+}
+li {
+  padding-bottom: 14px;
+}
+.breakBar {
+  height: 50px;
+}
+h2 {
+  width: 90%;
+  text-align: center;
+  border-bottom: 3px solid #000;
+  line-height: 0em;
+  letter-spacing: 3px;
+  margin: 10px 0 40px 0;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h2 span {
+  background: #fff;
+  padding: 0 1% 50px 1%;
+}
+.titluCapitol {
+  text-align: center;
+  margin-bottom: -50px;
+}
+.titluCap {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 50px;
+  text-transform: uppercase;
+}
+.titluPar {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-bottom: 7px;
+}
+.paragraf {
+  text-indent: 2cm;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  width: 90%;
+}
+.div {
+  padding: 4% 3% 4% 3%;
+  text-align: justify;
+}
+.noDiv {
+  padding: 4% 0 0 0;
+  text-align: justify;
+}
+.invDiv {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3%;
+  color: white;
+  text-align: justify;
+}
+.imgDiv {
+  padding: 0;
+  text-indent: 2cm;
+  text-align: justify;
+}
+.textColoaneInv {
+  width: 50%;
+  padding: 25px;
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: justify;
+}
+.textColoane {
+  width: 50%;
+  padding: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.85);
+  text-align: justify;
+}
+.td1 {
+  width: 25%;
+  text-align: center;
+  font-size: 42px;
+  padding: 2%;
+  background: #2C2C2C;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 0.4s;
+}
+.td1:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+  outline: 2px solid white;
+  outline-offset: -20px;
+}
+.td1:active {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
+  outline: 2px solid white;
+  outline-offset: -20px;
+}
+.td1 p {
+  color: white;
+  font-size: 24px;
+  padding: 100px 0 100px 0;
+  text-transform: uppercase;
+}
+.td1 a {
+  text-decoration: none;
+}
+#carol_lista {
+  padding: 0 10% 2% 10%;
+  margin-top: -3%;
+}
+#carol_lista li {
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+}
+/* --------------------Video-------------------- */
+.videoDiv {
+  width: 80%;
+  height: 600px;
+  position: relative;
+  padding-right: 15px;
+}
+.video {
+  top: 0;
+  align: center;
+  width: 100%;
+  height: 100%;
+}
+/* --------------------/Video-------------------- */
+/* --------------------Navbar-------------------- */
+#Navbar {
+  text-align: center;
+  transition-duration: 0.3s;
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.85);
+  vertical-align: top;
+}
+button {
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 82%;
+  padding: 15px;
+}
+#Navbar .Btn {
+  transition-duration: 0.1s;
+  background: none;
+}
+#Navbar .Btn:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+#Navbar .Btn:active {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+/* --------------------Navbar-------------------- */
+/* --------------------Subsol-------------------- */
+#subsol {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px 5% 30px 5%;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+}
+#subsol img {
+  display: inline;
+  height: 25px;
+}
+.printf {
+  text-decoration: none;
+  transition-duration: 0.2s;
+  color: white;
+}
+.printf:hover {
+  color: #DFDFDF;
+  cursor: pointer;
+}
+/* --------------------/Subsol-------------------- */

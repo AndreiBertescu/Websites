@@ -1,0 +1,351 @@
+data = [{
+    "id": "Sinaia",
+    "video": "https://www.youtube.com/embed/jocW0H9b4rQ",
+	"lat": "45.34687909528441",
+	"lon": "25.54889336274517"
+  },
+  {
+    "id": "Bușteni",
+    "video": "https://www.youtube.com/embed/ni4-4BjgmYk",
+	"lat": "45.40816316182568",
+	"lon": "25.52277392286387"
+  }, {
+    "id": "Azuga",
+    "video": "https://www.youtube.com/embed/x0Nu7eOUFMs",
+	"lat": "45.4440333082405",
+	"lon": "25.592781978804076"
+  }, {
+    "id": "Predeal",
+    "video": "https://www.youtube.com/embed/cG-kgCw7zpU",
+	"lat": "45.49904220101512",
+	"lon": "25.580898122391226"
+  }, {
+    "id": "Poiana Brașov",
+    "video": "https://www.youtube.com/embed/-CfzUuWO3zo",
+	"lat": "45.580922019418175",
+	"lon": "25.560883635698477"
+  }, {
+    "id": "Rânca",
+    "video": "https://www.youtube.com/embed/48wL18UUYmE",
+	"lat": "45.29688335161505",
+	"lon": "23.681624484595016"
+  }, {
+    "id": "Păltiniș",
+    "video": "https://www.youtube.com/embed/rovdbfn28m8",
+	"lat": "45.646227957762854",
+	"lon": "23.93674472411169"
+  }, {
+    "id": "Cavnic",
+    "video": "https://www.youtube.com/embed/EJQll-UaVH0",
+	"lat": "47.66491844399413",
+	"lon": "23.886642017561925"
+  }, {
+    "id": "Sinaia",
+    "name": "Centru de închirieri Sinaia VDO Ski Rental",
+    "tel": "+40722 598 504",
+    "link": "https://vdo-ski-rental.business.site/",
+    "adresa": "Cuza voda 2B, Sinaia 106100"
+  },
+  {
+    "id": "Sinaia",
+    "name": "Sinaia ski school",
+    "tel": "+40733 021 971",
+    "email": "contact@scoaladeschisinaia.ro",
+    "link": "https://www.scoaladeschisinaia.ro/",
+    "adresa": "Sinaia Gondola Plecare str. Telegondolei FN (în parcareastației de plecare)",
+    "desc": "Inchiriem echipamente de ski profesionale dar și standard tocmai ca tu și cei dragi să vă bucurați din plin de pârtie."
+  },
+  {
+    "id": "Sinaia",
+    "name": "Centrul de inchirieri ski & snowboard Sinaia (Rentski)",
+    "tel": "+40745 015 241",
+    "email": "rentskicornel@yahoo.com",
+    "adresa": "Str. Octavian Goga Nr. 1 Sinaia",
+    "desc": "Rentski dispune de doua centre de inchirieri echipament de ultima generatie pentru sporturi de iarna, in Azuga si Sinaia. Rentski inchiriaza schiuri (exclusiv echipament Fischer), bete, clapari (Nordica), sanii, patine, snowboard (Nidecker), boots. Echipamentul de ski si patinaj, dar si echipamentul de snowboarding sunt atat pentru copii, cat si pentru adulti. Rentski ofera reduceri de 25 la suta pentru rezervari online. Numai in Sinaia, Rentski ofera spre inchiriere echipament si pentru sezonul de vara. La 200 metri distanta de centrul de inchirieri din Sinaia se afla Hotel Tantzi, unde clientii Rentski beneficiaza de o reducere de 15 la suta la cazare. Alte avantaje oferite de Rentski: program flexibil (orar 8,00-20,00), echipamentul sportiv inchiriat poate fi folosit pe toate partiile din zona (Sinaia, Busteni, Azuga, Predeal, Poiana Brasov).",
+    "link": "https://www.infopensiuni.ro/cazare-sinaia/obiective-turistice-sinaia/centrul-de-inchirieri-ski--snowboard-sinaia-rent_9771"
+  },
+  {
+    "id": "Sinaia",
+    "name": "SNOWLINE SCOALA DE SKI SI SNOWBOARD",
+    "tel": "+40728 091 578",
+    "email": "contact@snowline.ro",
+    "adresa": "strada Sorica 4 Azuga, Valea Prahovei",
+    "desc": "Daca va ganditi la Muntii Bucegi, atunci suntem siguri ca va ganditi la ski sau snowboard, iar Scoala de Ski si Snowboard SNOWLINE va invita in statiunile de pe Valea Prahovei, pentru a practica si invata acest minunat sport.Datorita pregatirii continue, a planurilor de lectii inovatoare si spiritului unic de echipa, am creat Scoala de Ski si Snowboard Snowline – o scoala care se diferentiaza de restul.",
+    "link": "https://snowline.ro/"
+  },
+  {
+    "id": "Bușteni",
+    "name": "skibusteni.ro",
+    "tel": "+40724 291 355",
+    "email": "adventuresports.ro@gmail.com",
+    "link": "https://www.skibusteni.ro/",
+    "desc": "Aici va veti bucura nu numai de practicarea sporturilor de iarna, ci veti savura viata, zi de zi. Suntem o echipă de monitori de schi tineri, dinamici tot timpul, binedispusi si plini de farmec, foarte bine pregătiti, pentru ca tu să te bucuri de cele mai frumoase experiențe pe zăpadă. Pentru copii monitorii de schi sunt adevaratii eroi ai statiunilor. O zi petrecuta pe partie, cu grupul, este o experienta de nedescris care merita incercata. Incepatorii sau avansatii, copii sau adulti, invata tehnicile de schi importante si cristianele, descopera locuri ascunse in peisajul de iarna, invata sa cunoasca natura impresionanta si se distreaza impreuna. Cu alte cuvinte, pentru oricine, indiferent de varsta, partia de schi este cea mai interesanta sala de curs din lume."
+  },
+  {
+    "id": "Bușteni",
+    "name": "Bușteni - ski-si-snowboard.ro",
+    "tel": "+40722.256.702",
+    "email": "office@kalinderu.ro",
+    "desc": "Stațiunea Bușteni este căutată de iubitorii sporturilor de munte din Județul Prahova și nu numai, datorită pârtiilor (Pârtia Kalinderu 1 și Pârtia Kalinderu 2) bine întreținute, a distanței apropiate de capitală, a cazării în apropierea pârtiei și datorită peisajelor incredibile. În articolul complet prezentat pe ski-si-snowboard.ro despre Bușteni poți găsi informații despre amplasarea geografică, istoricul stațiunii, acces și cazare, pârtii, transport pe cablu, program, prețuri, ponturi/bine de știut, starea vremii, stratul de zăpadă, web-cam, galerie foto/video.",
+    "link": "http://ski-si-snowboard.ro/partii/busteni-1285"
+  },
+  {
+    "id": "Bușteni",
+    "name": "INSIDE | Centru de Inchirieri Ski & Snowboard | Ski Rent & School",
+    "adresa": "Strada Fintinii, Strada Buștenilor Nr.32, Bușteni 105500"
+  },
+  {
+    "id": "Bușteni",
+    "name": "Domeniul schiabil Kalinderu",
+    "tel": "+40733 985 686",
+    "adresa": "Strada Matei Basarab, Bușteni 105500",
+    "desc": "Munte animat de schi pentru familie, cu pârtii pentru începători, săniuș și un carusel pentru copii."
+  },
+  {
+    "id": "Bușteni",
+    "name": "Pensicris-SKI SCHOOL_Andreea BUDU",
+    "tel": "+40735 334 499",
+    "adresa": "Strada Matei Basarab 37, Bușteni 105500"
+  },
+  {
+    "id": "Sinaia",
+    "name": "Centru de închirieri Sinaia VDO Ski Rental",
+    "tel": "+40722 598 504",
+    "adresa": "Strada Cuza Vodă 2B, Sinaia 106100"
+  },
+  {
+    "id": "Sinaia",
+    "name": "Centru de închirieri Ski & Snowboard",
+    "tel": "+40745 015 241",
+    "adresa": "Strada Octavian Goga 1, Sinaia 106100"
+  },
+  {
+    "id": "Sinaia",
+    "name": "Centru de închirieri - Ski Rental - SnowFun - Ski/Snowbaord",
+    "tel": "+40723 350 693",
+    "adresa": "Strada Cota 1400, Sinaia 106100"
+  },
+  {
+    "id": "Azuga",
+    "name": "Scoala de Ski si Snowboard / Centru inchirieri echipament sportiv",
+    "tel": "+40728 091 578",
+    "adresa": " nr. 4 Strada Sorica, Azuga",
+    "desc": "Daca va ganditi la Muntii Bucegi, atunci suntem siguri ca va ganditi la ski sau snowboard, iar Scoala de Ski si Snowboard SNOWLINE va invita in statiunile de pe Valea Prahovei, pentru a practica si invata acest minunat sport. Datorita pregatirii continue, a planurilor de lectii inovatoare si spiritului unic de echipa, am creat Scoala de Ski si Snowboard Snowline – o scoala care se diferentiaza de restul.",
+    "link": "https://sport.decathlon.ro/locatie/SNOWLINE---Scoala-de-Ski-si-Snowboard-%2F-Centru-inchirieri-echipament-sportiv/6afd181a-29c6-43c3-a7ad-0ea9085ead57"
+  },
+  {
+    "id": "Azuga",
+    "name": "Centru de închirieri echipamente sportive",
+    "tel": "+40730 443 275",
+    "adresa": "str. Sorica, Azuga 105100"
+  },
+  {
+    "id": "Azuga",
+    "name": "Scoala de Ski Azuga",
+    "tel": "+40746 198 114",
+    "email": "scoaladeskiazuga@gmail.com",
+    "link": "https://scoaladeskiazuga.ro/",
+    "desc": "Unul dintre cele mai plăcute moduri de petrecere a timpului liber este,desigur, alunecarea pe zăpadă, in cele mai diferite feluri! Dar, de departe, cel mai apreciat este schiul! Sportul care te face să te simţi liber, să iţi testezi limitele și, nu in ultimul rând, să iţi refaci tonusul! Suntem bucuroși să ne numărăm printre cei care, prin pasiunea nostră, putem transmite mai departe tainele acestui frumos sport! Prin intermediul serviciilor pe care le oferim, ne adresăm tuturor celor ce iși doresc să se iniţieze sau să își perfecţioneze cunoștinţele și abilităţile in ceea ce privește alunecarea pe schiuri!",
+    "adresa": "Strada Sorica, Azuga 105100"
+  },
+  {
+    "id": "Azuga",
+    "name": "Ski&Service Planet Azuga",
+    "tel": "+40722 123 606",
+    "adresa": "Strada Sorica, Azuga 105100"
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru de închirieri Igloo",
+    "tel": "+40758 078 224",
+    "link": "https://brasovtourism.app/ro/places/centru-de-inchirieri-igloo",
+    "adresa": "Strada Teleferic 20, Predeal 505300, Romania"
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Cabana Fulg de Nea",
+    "tel": "+40787 254 286 | +40268 707 705",
+    "email": "cabanafulgdeneapredeal@gmail.com",
+    "link": "https://www.cabanafulgdeneapredeal.ro/divertisment/",
+    "adresa": "Strada Teleferic, Predeal 505300, Romania",
+    "desc": "Adapostita intre munti si inconjurata de aroma padurilor, Cabana Fulg De Nea din Predeal este refugiul ideal pentru cei care doresc sa evadeze din aglomeratia orasului si sa se rafaca intr-un cadru de munte.<br><br>Fiind la fel de primitoare in orice anotimp, oferindu-va o multime de activitati recreative, cabana Fulg De Nea beneficiaza de spatii de cazare, restaurant, bar, terenuri de tennis, centru de inchirieri material sportiv atat pentru sezonul de vara cat si pentru cel de iarna, solar, sala de conferinte, sala de fitness, patinuar, tennis de masa si billiard, inchirieri biciclete, excursii cu microbuze proprii, echipamente de paint-ball, parcare, organizare de mese festive in restaurant."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Complex Clăbucet",
+    "tel": "+40731 358 374 | +40268 455 013",
+    "email": "complexclabucet@gmail.com",
+    "link": "https://complexclabucet.ro",
+    "adresa": "Pârtia Clăbucet Sosire, Predeal 505300, Romania",
+    "desc": "Complexul Clăbucet beneficiază de parcare, dar în perioada sărbătorilor și a week-endurilor este foarte aglomerată. De aceea, vă sfătuim să parcați mașina la baza pârtiei (în parcarea publică) și să urcați pe jos până la școala de schi.<br><br>În cadrul Complexului Clabucet se află scoala de schi Mountain Adventure ce deține echipamente complete pentru toate varstele, toate dimensiunile, toate tipurile de schiuri: pentru carving, freestyle, All-Mountain, Schiuri de Powder, Schiuri de Alpine Touring."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Complex Piatra Craiului",
+    "tel": "+40722 876 204 | +40733 010 100",
+    "email": "h.piatracraiului@yahoo.com",
+    "link": "https://www.hotelrestaurantpiatracraiului.ro/",
+    "adresa": "Strada Valea Râșnoavei 10, Predeal 505300, Romania",
+    "desc": "Complexul Piatra Craiului deține o pârtie de schi amplasată la baza hotelului are o lungime de 500 de metri, nivel mediu de dificultate și este dotată cu instalație de transport pe cablu de tip teleschi, instalație nocturnă și instalație pentru producerea de zăpadă artificială. De asemenea, pârtia este deservită de un centru de închirieri echipamente sportive pentru practicarea sporturilor de iarnă (aproximativ 100 de echipamente complete pentru schiul alpin) și de un punct de prim ajutor salvamont. Pârtia este omologată pentru agrement de Autoritatea Națională de Turism."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Pasul Clăbucetului",
+    "tel": "+40723 373 370 | +40368 471 023",
+    "email": "contact@pasulclabucetului.ro",
+    "link": "https://pasulclabucetului.ro",
+    "adresa": "Teleferic 13B, Predeal, Romania, 505300",
+    "desc": "Pensiunea Pasul Clabucetului dispune la parter de un modern centru pentru Inchirieri Material Sportiv pentru activitatile de iarna. Centru este dotat cu cele mai noi modele de schiuri pentru agrement , snowboard-uri de toate dimensiunile si saniute pentru copii sau adulti.Echipamentele care le oferim spre inchiriere sunt marci cunoscute in domeniu cum ar fi: Rossignol, Atomic,Salomon, Elan, Blizzard sau Burton.Dintre dotari mai fac parte si doua uscatoare ultra moderne cu dezinfectant pentru clapari si ghete snowboard."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Pensiunea Anotimpuri",
+    "tel": "+40728 941 742",
+    "email": "pensiuneaanotimpuri@yahoo.com",
+    "link": "https://brasovtourism.app/ro/places/centru-inchirieri-pensiunea-anotimpuri",
+    "adresa": "Str. Teleferic, Predeal 505300, Romania",
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Pensiunea Don Sergio",
+    "tel": "+40722 705 861 | +40268 455 091",
+    "email": "contact@pasulclabucetului.ro",
+    "link": "https://brasovtourism.app/ro/places/centru-inchirieri-pensiunea-don-sergio",
+    "adresa": "Strada Teleferic, Predeal 505300, Romania",
+    "desc": "Pensiunea 'Don Sergio' este situată la baza pârtiei Clabucet.  În cadrul pensiunii funcționează și un centru de închirieri material sportiv dar și o scoală de ski si snowboard."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri ski & snowboard LUCIAN",
+    "tel": "+40722 996 733 | +40723 359 188",
+    "email": "http://centru-lucian.ro/",
+    "link": "https://brasovtourism.app/ro/places/centrul-lucian-t86newloboi7_a",
+    "adresa": "Str. Telefericului Nr. 13 B, Predeal, Romania, 505300",
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Pensiunea Faast",
+    "tel": "+40731 754 723",
+    "email": "faastski@yahoo.com",
+    "link": "https://brasovtourism.app/ro/places/centru-inchirieri-pensiunea-faast",
+    "adresa": "Strada Clăbucet 2, Predeal 505300, Romania",
+    "desc": "La baza partie Clabucet, Predeal va asteapta o incantatoare casa in stil austriac, cu toate conditiile necesare petrecerii unui sejur de vis la munte, iarna la ski sau la sanie, la un ceai cald sau un vin fiert. Pensiunea Faast oferă școală de schi și serviciul de închirieri de echipament de schi."
+  },
+  {
+    "id": "Predeal",
+    "name": "Centru închirieri Sky Snow School",
+    "tel": "+40721 635 988 | +40724 884 792",
+    "email": "office@skysnowschool.ro",
+    "link": "https://brasovtourism.app/ro/places/sky-snow-school",
+    "adresa": "Strada Clăbucet 2, Predeal 505300, Romania",
+    "desc": "Pentru ca extraordinara experiență a alunecării pe zăpadă să înceapă aveți nevoie de echipament de schi/snowboard potrivit nivelului dumneavoastră, astfel va punem la dispoziție echipament complet de schi (schiuri, clăpari, bete, casca si ochelari) si echipament complet de snowboard (placa de snowboard, boots, casca)."
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "Ski equipment rental Poiana Brasov",
+    "tel": "+40268 407 342",
+    "email": "ski@ana.ro",
+    "link": "https://www.discoverpoiana.ro/en/",
+    "desc": "Dacă ești pasionat de sporturile de iarnă sau de drumețiile grozave, Poiana Brașov este destinația perfectă – indiferent de anotimp. Situată la poalele Muntelui Postăvaru, Poiana este una dintre cele mai frumoase și moderne stațiuni montane din România.<br><br>Vino la Poiana Brașov și bucură-te de toată distracția, emoția, aerul curat și priveliștile de vis în orice anotimp. După o zi pe pârtie, alege dintr-o gamă largă de hoteluri, baruri și restaurante unde te poți relaxa pur și simplu. Așteptăm cu nerăbdare vizita dumneavoastră și să vă oferim o vacanță de amintit!",
+    "adresa": "Valea Dragă, 500001, Poiana Brașov"
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "INTERSKI ROMANIA - ÎNCHIRIERI ECHIPAMENTE",
+    "tel": "+40749 100 700",
+    "email": "office@interski.ro",
+    "link": "https://scoala-ski-poiana-brasov.ro/inchirieri-ski-poiana-brasov-inchireri-snowboard/?gclid=CjwKCAjw9LSSBhBsEiwAKtf0nzhhrlLEFF9dNgp-n7i9xJDFmz0fu2yeXdebaXG-XAT6OB0DD51TghoCXRkQAvD_BwE",
+    "desc": "Centrul de închirieri echipamente Interski dispune de o gamă vastă de echipamente performante de ski și snowboarding, de la branduri renumite precum Burton, Atomic, Fischer, Head, Salomon, Volkl, Rossignol și multe altele.<br><br>Ne dorim să facem sporturile montane accesibile unui public cât mai larg, de aceea ți-am pregătit cel mai bun raport calitate/preț din Poiana Brașov.",
+    "adresa": "Strada Drumul Sulinar Nr. 1, Poiana Brașov"
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "Eden Ski & Snowboard Rental Centre - Centru inchiriere echipament ski si snowboard Poiana Brasov",
+    "tel": "+40757 099 187",
+    "email": "contact@edenski.ro",
+    "adresa": "Strada Poiana Soarelui 229, Brașov 50000"
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "SKI & SNOWBOARD RENTAL SHOP POIANA BRAȘOV",
+    "tel": "+40745 526 526 | +40722 275 627",
+    "email": "janin@instructor-ski.ro",
+    "link": "https://inchirieri-ski.ro/en/",
+    "desc": "Vrei sa te bucuri de vacanta ta de iarna in Poiana Brasov cu un echipament de schi foarte bun? Dacă da, atunci schiurile noastre de închiriat sunt exact ceea ce cauți.",
+    "adresa": "Strada Poiana Soarelui, Poiana Brasov, Romania"
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "Teleferic Grand Hotel - Închiriere echipament sportiv",
+    "tel": "+40368 100 200",
+    "email": "frontoffice@telefericgrandhotel.ro",
+    "link": "https://www.telefericgrandhotel.ro/ski-rental/",
+    "desc": "Peste 200 perechi de schiuri și 50 de plăci de snowboard, de ultima generație, vă așteaptă la centrul nostru de închirieri din cadrul hotelului. Vă propunem cea mai bună soluție indiferent de nivelul de schi sau de condițiile zăpezii și vă oferim consultanță pentru alegerea echipamentelor precum și reglarea personalizată a acestora pentru fiecare oaspete în parte.",
+    "adresa": "Poiana Brasov, Brasov, 500001"
+  },
+  {
+    "id": "Poiana Brașov",
+    "name": "SKI POIANA BRASOV",
+    "tel": "+40745 526 526 | +40722 275 627",
+    "email": "janin@instructor-ski.ro",
+    "link": "https://scoala-ski-poiana-brasov.ro/inchirieri-ski-poiana-brasov-inchireri-snowboard/?gclid=CjwKCAjw9LSSBhBsEiwAKtf0nzhhrlLEFF9dNgp-n7i9xJDFmz0fu2yeXdebaXG-XAT6OB0DD51TghoCXRkQAvD_BwE",
+    "desc": "R&J centrul de inchirieri echipamente de ski - snowboard din Poiana Brasov situat în centrul statiunii Poiana Brasov, la parterul Pensiunii Casa Emil, vis-a-vis de Restaurantul Vanatorul.<br>Intr-o zona de maxim interes pentru pasionații de schi, la o distanta egala, dar nu departe de cele doua telecabine ce deservesc Vf. Postavaru si la 2-3 minute de partia de incepatori Bradul.<br>Echipa R&J Ski își propune să ofere iubitorilor de ski spre inchirere cele mai bune echipamente de ski si snowboard  la cele mai bune prețuri din Poiana Brasov",
+    "adresa": "Strada Poiana Soarelui 237, Brașov, 500001, Romania"
+  },
+  {
+    "id": "Rânca",
+    "name": "Rânca.org",
+    "email": "office@ranca.org",
+    "link": "http://www.ranca.org",
+    "desc": "Site-ul ranca.org se adreseaza atat turistilor care vor sa viziteze statiunea Ranca si imprejurimile sale, cat si proprietarilor care doresc sa-si promoveze unitatea de cazare intr-un mod profesionist. Avand o echipa ambitioasa de profesionisti, ranca.org este in masura sa raspunda prompt oricaror solicitari.",
+    "adresa": "Strada Poiana Soarelui 237, Brașov, 500001, Romania"
+  },
+  {
+    "id": "Rânca",
+    "name": "Alpina Ski - Centru Inchirieri",
+    "tel": "+40751 928 086 | +40755 356 374",
+    "email": "alpinaskividra@gmail.com",
+    "link": "http://www.alpinaski.ro/acasa",
+    "desc": "Dispunem de sute de echipamente de schi din cele mai bune brand-uri: Rossignol, Fischer, Volkl, etc. Pentru fiecare pereche de schi facem reglaj personalizat, pentru siguranta dvs. si pentru o experienta cat mai placuta pe partie.",
+    "adresa": "Transalpina Ski Resort, 247750 Obârsia Lotrului, Vâlcea"
+  },
+  {
+    "id": "Rânca",
+    "name": "Straja Extreme Park",
+    "tel": "+40735 919 167",
+    "email": "contact@strajaextremepark.ro",
+    "link": "https://strajaextremepark.ro/inchirieri/",
+    "adresa": "Stațiunea Straja, Jud. Hunedoara, România"
+  },
+  {
+    "id": "Păltiniș",
+    "name": "Inchiriere skiuri Paltinis",
+    "tel": "+40740 470 069",
+    "email": "iliebanu@yahoo.com",
+    "link": "https://sibiu-trips.com/inchiriere-skiuri/",
+    "adresa": "Transalpina Ski Resort, 247750 Obârsia Lotrului, Vâlcea"
+  },
+  {
+    "id": "Păltiniș",
+    "name": "SCOALA DE SKI JOE PALTINIS",
+    "tel": "+40745 771 611 | +40742 187 992",
+    "email": "office@joeskipaltinis.ro",
+    "link": "http://joeskipaltinis.ro/",
+    "adresa": "Strada principala, vis a vis de partia de ski - Paltinis, Sibiu"
+  },
+  {
+    "id": "Cavnic",
+    "name": "Inchirieri - SuperSki Cavnic",
+    "tel": "+40731 818199",
+    "email": "office@hotelsuperski.ro",
+    "link": "https://www.superskicavnic.ro/inchirieri/",
+    "adresa": "Cavnic, str. Maramuresului nr. 22"
+  },
+  {
+    "id": "Cavnic",
+    "name": "Cavnic - ski-si-snowboard.ro",
+    "tel": "+40748.050.533 | +40744.894.399",
+    "link": "http://ski-si-snowboard.ro/partii/cavnic-1136",
+    "adresa": "Roata, Cavnic 435300"
+  }
+]

@@ -1,0 +1,163 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Roboto, sans-serif;
+  border: none;
+}
+body {
+  background: #FEFBF3;
+}
+#iframe1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#iframe2{
+	width: 100%;
+	height: 3200px;
+}
+#MainContainer {
+  width: 80%;
+  min-height: 100vh;
+  padding-top: 95px;
+  align: center;
+  color: #414141;
+}
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 10px;
+}
+ul {
+  padding: 0;
+  margin-left: 14px;
+  padding-left: 14px;
+  padding-right: 50px;
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  text-align: justify;
+}
+li {
+  padding-bottom: 14px;
+}
+.breakBar {
+  height: 50px;
+}
+.titluCap {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  display: inline;
+  padding: 15px;
+}
+.titluPar {
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-bottom: 7px;
+}
+.paragraf {
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.div {
+  padding: 4% 3% 4% 3%;
+  text-indent: 2cm;
+  text-align: justify;
+}
+.noDiv {
+  padding: 4% 0 0 0;
+  text-align: justify;
+}
+.invDiv {
+  background: black;
+  padding: 3%;
+  color: white;
+  text-align: justify;
+}
+.textColoane {
+  width: 33%;
+  padding: 25px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.link {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-left: 14px;
+  color: #414141;
+  text-decoration-color: black;
+}
+.link:hover {
+  color: #2E2E2E;
+  cursor: pointer;
+}
+.link:visited {
+  text-decoration-color: black;
+}
+/* --------------------Navbar-------------------- */
+#Navbar {
+  z-index: 9;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  transition-duration: 0.2s;
+  background: black;
+}
+button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 82%;
+  transition-duration: 0.4s;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Navbar .Btn {
+  transition-duration: 0.1s;
+  background: black;
+}
+#Navbar .Btn:hover{
+  background: #454545;
+}
+#Navbar .Btn:active{
+  background: #525252;
+}
+/* --------------------Navbar-------------------- */
+/* --------------------Subsol-------------------- */
+#subsol {
+  background-color: black;
+  padding: 30px 5% 25px 5%;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+}
+#subsol img {
+  display: inline;
+  height: 25px;
+}
+.printf {
+  text-decoration: none;
+  transition-duration: 0.2s;
+  color: white;
+}
+.printf:hover {
+  color: #DFDFDF;
+  cursor: pointer;
+}
+/* --------------------/Subsol-------------------- */

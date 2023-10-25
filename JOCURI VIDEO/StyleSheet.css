@@ -1,0 +1,149 @@
+@charset "utf-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  font-weight: lighter;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  border: none;
+}
+body {
+  background-image: url("img/back.png");
+}
+img {
+  display: block;
+}
+#iframe1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#iframe2 {
+  width: 100%;
+  height: 1500px;
+}
+#MainContainer {
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .9);
+  color: white;
+  width: 70%;
+  min-height: 99vh;
+  align: center;
+  outline: 2px solid black;
+  outline-offset: -2px;
+}
+hr {
+  height: 1px;
+  background-color: white;
+  border: none;
+  margin: 0 5% 0 5%;
+}
+.breakBar {
+  height: 50px;
+}
+.titluCap {
+  text-indent: 2cm;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 50px;
+  text-transform: uppercase;
+}
+.titluPar {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding-bottom: 7px;
+}
+.paragraf {
+  letter-spacing: -0.3px;
+  word-spacing: 1px;
+  width: 90%;
+}
+.div {
+  text-indent: 2cm;
+  padding: 4% 3% 4% 3%;
+  text-align: justify;
+}
+.noDiv {
+  padding: 4% 0 0 0;
+  text-align: justify;
+}
+.invDiv {
+  text-indent: 2cm;
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .1);
+  padding: 3%;
+  color: black;
+  text-align: justify;
+}
+.imgDiv {
+  padding: 0;
+  text-indent: 2cm;
+  text-align: justify;
+}
+.textColoaneInv {
+  width: 50%;
+  padding: 25px;
+  background: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  color: black;
+  text-align: justify;
+}
+.textColoane {
+  width: 50%;
+  padding: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  text-align: justify;
+}
+/* --------------------Navbar-------------------- */
+#Navbar {
+  z-index: 9;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: black;
+}
+button {
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 82%;
+  transition-duration: 0.4s;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Navbar .Btn {
+  transition-duration: 0.2s;
+  background: black;
+}
+#Navbar .Btn:hover {
+  background: #1c1c1c;
+}
+#Navbar .Btn:active {
+  background: #292929;
+}
+/* --------------------Navbar-------------------- */
+/* --------------------Subsol-------------------- */
+#subsol {
+  background-color: black;
+  padding: 30px 5% 25px 5%;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+}
+#subsol img {
+  display: inline;
+  height: 25px;
+}
+.printf {
+  text-decoration: none;
+  transition-duration: 0.2s;
+  color: white;
+}
+.printf:hover {
+  color: #DFDFDF;
+  cursor: pointer;
+}
+/* --------------------/Subsol-------------------- */
