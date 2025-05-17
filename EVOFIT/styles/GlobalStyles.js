@@ -15,11 +15,29 @@ export const global = StyleSheet.create({
     alignItems: 'center'
   },
 
+  bannerContainer: {
+    position: 'relative', 
+    height: 200, 
+    marginBottom: 20
+  },
+
   titlu: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
+  },
+
+  bigTitle: {
+    fontSize: 50,
+    fontWeight: 900,
+    marginBottom: 20,
+    textAlign: 'center',
+    color: 'white',
+
+    position: 'absolute',
+    top: '32%',
+    width: '100%',
   },
 
   header: {
@@ -34,6 +52,12 @@ export const global = StyleSheet.create({
     color: '#000',
     fontSize: 16,
     textAlign: "center"
+  },
+
+  textLeft: {
+    color: '#000',
+    fontSize: 16,
+    textAlign: "left"
   },
 
   coloredText: {

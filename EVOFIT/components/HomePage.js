@@ -12,7 +12,7 @@ import { styles } from '../styles/HomeStyles';
 const HomePage = ({ navigation }) => {
   const [goalSteps, setGoalSteps] = useState(1);
   const [currentSteps, setCurrentSteps] = useState(0);
-  const progress = (goalSteps === 0) ? 99 : Math.min(currentSteps / goalSteps, 1);
+  const progress = (goalSteps == 0) ? 99 : (currentSteps / (goalSteps+1));
 
   // Run loadStepsData every time the page comes into focus
   useFocusEffect(
@@ -26,8 +26,8 @@ const HomePage = ({ navigation }) => {
       const savedGoal = await AsyncStorage.getItem('@step_goal');
       const savedCurrent = await AsyncStorage.getItem('@current_steps');
 
-      if (savedGoal !== null && savedGoal != 0) setGoalSteps(parseInt(savedGoal));
-      if (savedCurrent !== null) setCurrentSteps(parseInt(savedCurrent));
+      if (savedGoal !== null && savedGoal != 0 && !isNaN(savedGoal)) setGoalSteps(parseInt(savedGoal));
+      if (savedCurrent !== null && savedCurrent != 0 && !isNaN(savedCurrent)) setCurrentSteps(parseInt(savedCurrent));
       
       //console.log("Loaded steps: ", savedGoal, savedCurrent);
     } catch (e) {
@@ -47,7 +47,7 @@ const HomePage = ({ navigation }) => {
           <Text style={global.coloredText}>{currentSteps} / {goalSteps} steps</Text>
 
           <Progress.Circle 
-            size={100} // Dimensions.get('window').width * 0.25
+            size={Dimensions.get('window').width * 0.25}
             progress={progress}
             marginTop={7}
             showsText={true}
@@ -93,19 +93,19 @@ const HomePage = ({ navigation }) => {
         <View style={global.line} />
       </View>
 
-      <TouchableOpacity onPress={() => navigation.navigate('Plan 1')} style={global.longButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('PaleoDiet')} style={global.longButton}>
           <Text style={global.customButtonText}>Paleo Diet</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Plan 1')} style={global.longButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('KetoDiet')} style={global.longButton}>
           <Text style={global.customButtonText}>Keto Diet</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Plan 1')} style={global.longButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('VeganDiet')} style={global.longButton}>
           <Text style={global.customButtonText}>Vegan Diet</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Plan 1')} style={global.longButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('RawDiet')} style={global.longButton}>
           <Text style={global.customButtonText}>Raw Food Diet</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Plan 1')} style={global.longButton}>
+      <TouchableOpacity onPress={() => navigation.navigate('MediterraneanDiet')} style={global.longButton}>
           <Text style={global.customButtonText}>Mediterranean Diet</Text>
       </TouchableOpacity>
     </ScrollView>

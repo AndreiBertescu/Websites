@@ -1,17 +1,21 @@
-import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 import Home from './components/HomePage';
 import StepCounter from './components/StepCounterPage';
 import History from './components/HistoryPage';
 import Bmi from './components/BmiPage';
 import Stopwatch from './components/StopwatchPage';
-import Plan1 from './components/PlanPage1';
+import DietPaleo from './components/DietPaleo';
+import DietKeto from './components/DietKeto';
+import DietVegan from './components/DietVegan';
+import DietRaw from './components/DietRaw';
+import DietMedit from './components/DietMedit';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  return (
+  return ( 
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
@@ -44,10 +48,35 @@ export default function App() {
         />
 
         <Stack.Screen
-          name="Plan 1"
-          component={Plan1}
+          name="PaleoDiet"
+          component={DietPaleo}
           options={{ title: 'Alimentation plans' }}
         />
+
+        <Stack.Screen
+          name="KetoDiet"
+          component={DietKeto}
+          options={{ title: 'Alimentation plans' }}
+        />
+
+        <Stack.Screen
+          name="VeganDiet"
+          component={DietVegan}
+          options={{ title: 'Alimentation plans' }}
+        />
+
+        <Stack.Screen
+          name="RawDiet"
+          component={DietRaw}
+          options={{ title: 'Alimentation plans' }}
+        />
+
+        <Stack.Screen
+          name="MediterraneanDiet"
+          component={DietMedit}
+          options={{ title: 'Alimentation plans' }}
+        />
+
       </Stack.Navigator>
     </NavigationContainer>
   );

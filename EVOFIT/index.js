@@ -1,3 +1,4 @@
+// To build the app use: eas build --profile preview --platform android
 import { registerRootComponent } from 'expo';
 
 import App from './App';

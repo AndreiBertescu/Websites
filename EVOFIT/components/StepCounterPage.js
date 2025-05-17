@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { ScrollView, View, Text, TextInput, Button, Platform } from 'react-native';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -18,7 +18,7 @@ const StepCounter = () => {
   const [gender, setGender] = useState('M');
   const [weight, setWeight] = useState(70);
 
-  const progress = (goalSteps === 0) ? 10 : Math.min(currentSteps / goalSteps, 1);
+  const progress = (goalSteps === 0) ? 10 : (currentSteps / (goalSteps+1));
 
   const strideLength = (gender == 'F') ? 0.762 : 0.8;
   const caloriesPerStep = getCaloriesPerStep(weight);
@@ -45,12 +45,12 @@ const StepCounter = () => {
       const savedWeight = await AsyncStorage.getItem('@weight');
       const savedWeightUnit = await AsyncStorage.getItem('@weightUnit');
 
-      if (savedGoal !== null && savedGoal != 0) {
+      if (savedGoal !== null && savedGoal != 0 && !isNaN(savedWeight)) {
         setGoalSteps(parseInt(savedGoal));
         saveStepsData(parseInt(savedGoal), -1);
       }
       if (savedGender !== null) setGender(savedGender);
-      if (savedWeight !== null && savedWeight != 0) setWeight((savedWeightUnit === 'kg') ? parseInt(savedWeight) : (parseInt(savedWeight) / 2.20462).toFixed(0));
+      if (savedWeight !== null && savedWeight != 0 && !isNaN(savedWeight)) setWeight((savedWeightUnit === 'kg') ? parseInt(savedWeight) : (parseInt(savedWeight) / 2.20462).toFixed(0));
 
       //console.log('Loaded data: ', savedGoal, savedGender, savedWeight, savedWeightUnit, (savedWeightUnit === 'Kg') ? parseInt(savedWeight) : (parseInt(savedWeight) / 2.20462).toFixed(0));
     } catch (e) {
@@ -78,9 +78,14 @@ const StepCounter = () => {
   const loadStepCounterAndroid = async () => {
     try {
       const savedCurrent = await AsyncStorage.getItem('@current_steps');
-      if (savedCurrent !== null) setCurrentSteps(parseInt(savedCurrent) + 200);
-      
-      saveStepsData(-1, parseInt(savedCurrent) + 200);
+
+      if (savedCurrent !== null  && savedCurrent != 0  && !isNaN(savedCurrent)) {
+        setCurrentSteps(parseInt(savedCurrent) + 200);
+        saveStepsData(-1, parseInt(savedCurrent) + 200);
+      } else {
+        setCurrentSteps(200);
+        saveStepsData(-1, 200);
+      }
     } catch (e) {
       console.error('Failed to load steps data:', e);
     }
@@ -89,11 +94,13 @@ const StepCounter = () => {
   const loadStepCounterIos = async () => {
     try {
       // Get the current date and yesterday's date
-      const end = new Date();
+      const end = new Date(); // now
       const start = new Date();
-      start.setDate(end.getDate() - 1);
 
-      // Get step data
+      // Set start time to midnight today
+      start.setHours(0, 0, 0, 0);
+
+      // Get step data from midnight to now
       const result = await Pedometer.getStepCountAsync(start, end);
       setCurrentSteps(result.steps);
       saveStepsData(-1, result.steps);
